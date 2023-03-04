@@ -6,7 +6,7 @@ title.textContent = "text";
 
 const newElement = document.createElement('div');
 newElement.setAttribute('class', 'new-element')
-newElement.innerHTML = 'lskjlsfj';
+newElement.innerHTML = 'WT project';
 console.log(newElement);
 
 title.innerHTML = newElement.outerHTML;
