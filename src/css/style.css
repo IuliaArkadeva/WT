@@ -1,0 +1,31 @@
+body .cube-container {
+  display: flex;
+  justify-content: space-between; }
+  body .cube-container .cube {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block; }
+    body .cube-container .cube:nth-child(0) {
+      background-color: black; }
+    body .cube-container .cube:nth-child(1) {
+      background-color: #321e14; }
+    body .cube-container .cube:nth-child(2) {
+      background-color: #643c28; }
+    body .cube-container .cube:nth-child(3) {
+      background-color: #965a3c; }
+    body .cube-container .cube:nth-child(4) {
+      background-color: #c87850; }
+    body .cube-container .cube:nth-child(5) {
+      background-color: #fa9664; }
+    body .cube-container .cube:nth-child(6) {
+      background-color: #ffb478; }
+    body .cube-container .cube:nth-child(7) {
+      background-color: #ffd28c; }
+    body .cube-container .cube:nth-child(8) {
+      background-color: #fff0a0; }
+    body .cube-container .cube:nth-child(9) {
+      background-color: #ffffb4; }
+
+/*# sourceMappingURL=style.css.map */

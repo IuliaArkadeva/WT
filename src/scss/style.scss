@@ -1,0 +1,16 @@
+@import './varibles';
+@import './functions';
+@import './mixins';
+
+body{
+    .cube-container{
+        display: flex;
+        justify-content: space-between;
+
+        .cube{
+            @include shapes(10);
+           
+        }
+
+    }
+}

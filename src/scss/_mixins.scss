@@ -1,0 +1,31 @@
+@mixin shapes (){
+    height: $side;
+    width: $side;
+    margin-bottom: $border;
+    padding-bottom: $border;
+    display: block;
+    background-color: color-count(1);
+    &:nth-child(2n){
+        background-color: color-count(2);
+    }
+    &:nth-child(3n){
+        background-color: color-count(3);
+    }
+    &:nth-child(4n){
+        background-color: color-count(3);
+    }
+
+}
+
+@mixin shapes($count) {
+  height: $side;
+  width: $side;
+  margin-bottom: $border;
+  padding-bottom: $border;
+  display: block;
+  @for $i from 0 to $count {
+    &:nth-child(#{$i}) {
+      background-color: color-count($i);
+    }
+  }
+}
